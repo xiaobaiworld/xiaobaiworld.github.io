@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>未分类 - 分类 - 小白的世界</title>
+        <link>https://www.xiaobaiworld.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/</link>
+        <description>未分类 - 分类 - 小白的世界</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 31 Jan 2021 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://www.xiaobaiworld.com/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>感谢 Dillon</title>
+    <link>https://www.xiaobaiworld.com/posts/thanks-dillon/</link>
+    <pubDate>Sun, 31 Jan 2021 21:40:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/posts/thanks-dillon/</guid>
+    <description><![CDATA[发文感谢一下 Dillon . 正是因为他的分享,才让我这个网站得以完成. 也要感谢 Hugo ,挺好玩的一个工具, 后面还会继续搞~~~~]]></description>
+</item><item>
+    <title>文章标题 </title>
+    <link>https://www.xiaobaiworld.com/posts/model-sample/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/posts/model-sample/</guid>
+    <description><![CDATA[测试第一篇]]></description>
+</item></channel>
+</rss>

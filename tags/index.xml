@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - 标签 - 小白的世界</title>
+        <link>https://www.xiaobaiworld.com/tags/</link>
+        <description>Tags - 标签 - 小白的世界</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 31 Jan 2021 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://www.xiaobaiworld.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>HTML</title>
+    <link>https://www.xiaobaiworld.com/tags/html/</link>
+    <pubDate>Sun, 31 Jan 2021 21:40:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/html/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>安装</title>
+    <link>https://www.xiaobaiworld.com/tags/installation/</link>
+    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/installation/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>配置</title>
+    <link>https://www.xiaobaiworld.com/tags/configuration/</link>
+    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/configuration/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Markdown</title>
+    <link>https://www.xiaobaiworld.com/tags/markdown/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>内容</title>
+    <link>https://www.xiaobaiworld.com/tags/content/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/content/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>shortcodes</title>
+    <link>https://www.xiaobaiworld.com/tags/shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/shortcodes/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>emoji</title>
+    <link>https://www.xiaobaiworld.com/tags/emoji/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/tags/emoji/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
