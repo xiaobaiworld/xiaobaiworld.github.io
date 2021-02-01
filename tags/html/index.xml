@@ -3,7 +3,14 @@
         <title>HTML - 标签 - 小白的世界</title>
         <link>https://www.xiaobaiworld.com/tags/html/</link>
         <description>HTML - 标签 - 小白的世界</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 01 Feb 2021 14:47:28 &#43;0000</lastBuildDate><atom:link href="https://www.xiaobaiworld.com/tags/html/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 01 Feb 2021 21:35:41 &#43;0000</lastBuildDate><atom:link href="https://www.xiaobaiworld.com/tags/html/" rel="self" type="application/rss+xml" /><item>
+    <title>[每日学习]2021年hugo 和github 中自动化脚本</title>
+    <link>https://www.xiaobaiworld.com/posts/col2021020102/</link>
+    <pubDate>Mon, 01 Feb 2021 21:35:41 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/posts/col2021020102/</guid>
+    <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
+</item><item>
     <title>[每日学习]2021年hugo 发表文章时间造成问题的解决 </title>
     <link>https://www.xiaobaiworld.com/posts/collect-tip-20210201/</link>
     <pubDate>Mon, 01 Feb 2021 14:47:28 &#43;0000</pubDate>
@@ -24,13 +31,6 @@
     <author>作者</author>
     <guid>https://www.xiaobaiworld.com/posts/thanks-dillon/</guid>
     <description><![CDATA[发文感谢一下 Dillon . 正是因为他的分享,才让我这个网站得以完成. 也要感谢 Hugo ,挺好玩的一个工具, 后面还会继续搞~~~~]]></description>
-</item><item>
-    <title>[每日学习]2021年hugo 和github 中自动化脚本</title>
-    <link>https://www.xiaobaiworld.com/posts/col2021020102/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://www.xiaobaiworld.com/posts/col2021020102/</guid>
-    <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
 </item><item>
     <title>[每日学习]2021年hugo建站 </title>
     <link>https://www.xiaobaiworld.com/posts/model-sample/</link>
