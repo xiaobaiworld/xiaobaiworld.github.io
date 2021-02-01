@@ -12,10 +12,10 @@
     <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
 </item><item>
     <title>[每日学习]2021年hugo建站相关的一些技巧及VSCode插件使用 </title>
-    <link>https://www.xiaobaiworld.com/posts/collect-tip-20210131/</link>
+    <link>https://www.xiaobaiworld.com/posts/col2021020101/</link>
     <pubDate>Sun, 31 Jan 2021 15:04:18 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://www.xiaobaiworld.com/posts/collect-tip-20210131/</guid>
+    <guid>https://www.xiaobaiworld.com/posts/col2021020101/</guid>
     <description><![CDATA[<p>经验记录, Hugo - <strong>LoveIt</strong> 主题初始使用的时候一些小问题.</p>]]></description>
 </item><item>
     <title>感谢 Dillon</title>
@@ -32,12 +32,19 @@
     <guid>https://www.xiaobaiworld.com/posts/theme-documentation-basics/</guid>
     <description><![CDATA[<p>探索 Hugo - <strong>LoveIt</strong> 主题的全部内容和背后的核心概念.</p>]]></description>
 </item><item>
+    <title>[每日学习]2021年hugo 和github 中自动化脚本</title>
+    <link>https://www.xiaobaiworld.com/posts/col2021020102/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/posts/col2021020102/</guid>
+    <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
+</item><item>
     <title>[每日学习]2021年hugo建站 </title>
     <link>https://www.xiaobaiworld.com/posts/model-sample/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>https://www.xiaobaiworld.com/posts/model-sample/</guid>
-    <description><![CDATA[测试第一篇]]></description>
+    <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
 </item><item>
     <title>主题文档 - 内容</title>
     <link>https://www.xiaobaiworld.com/posts/theme-documentation-content/</link>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://www.xiaobaiworld.com/posts/basic-markdown-syntax/</guid>
     <description><![CDATA[<p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
-</item><item>
-    <title>Emoji 支持</title>
-    <link>https://www.xiaobaiworld.com/posts/emoji-support/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.xiaobaiworld.com/posts/emoji-support/</guid>
-    <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
 </item></channel>
 </rss>
