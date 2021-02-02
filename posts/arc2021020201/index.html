@@ -31,7 +31,7 @@
                             "url": "https:\/\/www.xiaobaiworld.com\/posts\/arc2021020201\/featured-image.jpg",
                             "width":  1260 ,
                             "height":  840 
-                        }],"genre": "posts","keywords": "HTML, hugo, 不蒜子, 站点统计, google","wordcount":  848 ,
+                        }],"genre": "posts","keywords": "HTML, hugo, 不蒜子, 站点统计, google","wordcount":  865 ,
         "url": "https:\/\/www.xiaobaiworld.com\/posts\/arc2021020201\/","datePublished": "2021-02-02T11:36:21+00:00","dateModified": "2021-02-02T11:36:21+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/www.xiaobaiworld.com\/images\/avatar.png"},"author": {
@@ -109,7 +109,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">[每日学习]hugo建站 google站点统计与不蒜子</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiaobaiworld.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>大白</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/hugo%E7%9B%B8%E5%85%B3/"><i class="far fa-folder fa-fw"></i>hugo相关</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-02-02">2021-02-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 848 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-02-02">2021-02-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 865 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/posts/arc2021020201/" class="leancloud_visitors" data-flag-title="[每日学习]hugo建站 google站点统计与不蒜子">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -128,12 +128,7 @@
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#统计系统的选择">统计系统的选择</a></li>
-    <li><a href="#那就先用-ga-等掌握的熟练了就可以再加上百度的-但还有一个发现">那就先用 GA ,等掌握的熟练了,就可以再加上百度的 ,但还有一个发现</a></li>
-    <li><a href="#如何加上-ga-google-analytics">如何加上 GA (Google Analytics)</a>
-      <ul>
-        <li><a href="#如何注册-google-analytics">如何注册 Google Analytics</a></li>
-      </ul>
-    </li>
+    <li><a href="#如何加上-ga-google-analytics">如何加上 GA (Google Analytics)</a></li>
     <li><a href="#如何加上-不蒜子-系统">如何加上 不蒜子 系统</a>
       <ul>
         <li><a href="#不蒜子的确是一个非常非常简单的统计系统">不蒜子的确是一个非常非常简单的统计系统.</a></li>
@@ -158,10 +153,10 @@
 <p>知道 Google 和 百度的应该都满足我的技术需求,</p>
 <p>但是 Google 是否被墙, 有无影响?</p>
 <p>通过简单查询发现应该是影响不大,但是和Hugo 的结合,大家用的还是 GA多</p>
-<h2 id="那就先用-ga-等掌握的熟练了就可以再加上百度的-但还有一个发现">那就先用 GA ,等掌握的熟练了,就可以再加上百度的 ,但还有一个发现</h2>
+<p>那就先用 GA ,等掌握的熟练了,就可以再加上百度的 ,但还有一个发现</p>
 <p>原来没有听说过的 <a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener noreffer">不蒜子</a> 也频繁被说起,那么也想试试.</p>
 <h2 id="如何加上-ga-google-analytics">如何加上 GA (Google Analytics)</h2>
-<h3 id="如何注册-google-analytics">如何注册 Google Analytics</h3>
+<p><strong>如何注册 Google Analytics</strong></p>
 <ol>
 <li>第一步 进入 (Ga网站 <a href="https://marketingplatform.google.com/about/analytics/">https://marketingplatform.google.com/about/analytics/</a>)</li>
 <li>如何注册就不写了,网上很多教程, 而且我去看了一下,里面的大同小异, 而且基本没有变化.</li>
@@ -185,8 +180,9 @@
 <strong>第二步</strong>
 在要显示的地方加入 例如每个页面下方&rsquo;theme/layouts/partials/foot.html'</p>
 <div class="highlight"><pre class="chroma"><code class="language-JavaScript" data-lang="JavaScript"><span class="o">&lt;</span><span class="nx">span</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;busuanzi_container_site_pv&#34;</span><span class="o">&gt;</span><span class="nx">本站总访问量</span><span class="o">&lt;</span><span class="nx">span</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;busuanzi_value_site_pv&#34;</span><span class="o">&gt;&lt;</span><span class="err">/span&gt;次&lt;/span&gt;</span>
-</code></pre></div><p>这就应该可以了.
-只是在本地显示可能有问题. 发布到正式站点就好了.</p>
+</code></pre></div><p>这就应该可以了.</p>
+<p>如果出现统计的数字不准,那么很可能</p>
+<p>只是在本地显示可能有问题. 发布到正式站点就好了.</p>
 <h2 id="未完成-加上-百度统计"><em>未完成 加上 百度统计</em></h2></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
