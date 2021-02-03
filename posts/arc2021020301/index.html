@@ -18,8 +18,6 @@
 <meta name="twitter:description" content="hugo 相关的小技巧"/>
 <meta name="application-name" content="小白的世界">
 <meta name="apple-mobile-web-app-title" content="小白的世界"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/safari-pinned-tab.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.xiaobaiworld.com/posts/arc2021020301/" /><link rel="prev" href="https://www.xiaobaiworld.com/posts/arc2021020201/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css">
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DN595SWSF6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -41,7 +39,7 @@
                             "url": "https:\/\/www.xiaobaiworld.com\/posts\/arc2021020301\/featured-image.jpg",
                             "width":  1260 ,
                             "height":  840 
-                        }],"genre": "posts","keywords": "HTML, hugo, vscode","wordcount":  682 ,
+                        }],"genre": "posts","keywords": "HTML, hugo, vscode","wordcount":  860 ,
         "url": "https:\/\/www.xiaobaiworld.com\/posts\/arc2021020301\/","datePublished": "2021-02-03T18:56:08+00:00","dateModified": "2021-02-03T18:56:08+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/www.xiaobaiworld.com\/images\/avatar.png"},"author": {
@@ -119,7 +117,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">[每日学习]hugo建站 Google Analytics 中的一点问题 </h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://xiaobaiworld.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>大白</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/hugo%E7%9B%B8%E5%85%B3/"><i class="far fa-folder fa-fw"></i>hugo相关</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-02-03">2021-02-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 682 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-02-03">2021-02-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 860 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/posts/arc2021020301/" class="leancloud_visitors" data-flag-title="[每日学习]hugo建站 Google Analytics 中的一点问题 ">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -163,10 +161,21 @@
          <span class="c"># 是否匿名化用户 IP</span>
          <span class="nx">anonymizeIP</span> <span class="p">=</span> <span class="kc">true</span>
 </code></pre></div><p>在这个主题中就有这2个选项 ，填入后却没有生效.
-&ldquo;某种意义只能是&quot;配置文件写错了，或者调用的过程错了. 但缺少调试的工具, 对<br>
-整个流程也不太熟悉，就暂且绕过去了，直接在link.html 文件后面加上那段代码.<br>
-(google analytics 提供的)
-是不是和2020 年10月Google 的新政有关？ ？？？
+只能是配置文件写错了，或者调用的过程错了. 但缺少调试的工具, <br>
+对整个流程也不太熟悉，就暂且绕过去了，<br>
+直接在link.html 文件后面加上那段代码.<br>
+(google analytics )</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="c">&lt;!--</span> <span class="nx">Global</span> <span class="nx">site</span> <span class="nx">tag</span> <span class="p">(</span><span class="nx">gtag</span><span class="p">.</span><span class="nx">js</span><span class="p">)</span> <span class="o">-</span> <span class="nx">Google</span> <span class="nx">Analytics</span> <span class="o">--&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span> <span class="kr">async</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;https://www.googletagmanager.com/gtag/js?id=G-DN59xxxxxx&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
+  <span class="kd">function</span> <span class="nx">gtag</span><span class="p">(){</span><span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);}</span>
+  <span class="nx">gtag</span><span class="p">(</span><span class="s1">&#39;js&#39;</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+  <span class="nx">gtag</span><span class="p">(</span><span class="s1">&#39;config&#39;</span><span class="p">,</span> <span class="s1">&#39;G-DN59xxxxx&#39;</span><span class="p">);</span>
+
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+
+</code></pre></div><p>还找到了一点消息，不知和2020 年10月Google 的新政有无关系？
 <div class="details admonition quote open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-quote-right fa-fw"></i>引用<i class="details-icon fas fa-angle-right fa-fw"></i>
@@ -180,7 +189,31 @@
 </div>
         </div>
     </div></p>
-<h4 id="先暂且没有能力去弄清楚但可以先跳过等后有了一些hogo-的能力再去解决">先暂且没有能力去弄清楚,但可以先跳过，等后有了一些hogo 的能力,再去解决.</h4></div><div class="post-footer" id="post-footer">
+<h4 id="先暂且没有能力去弄清楚但可以先跳过等后有了一些hogo-的能力再去解决">先暂且没有能力去弄清楚,但可以先跳过，等后有了一些hogo 的能力,再去解决.</h4>
+<p>传到了github 发现不蒜子不能用了.</p>
+<p>原来是放在 header.html 里面, 是没有问题,这次如果和Google 的都放在Link.html 文件里面,则就会出问题.</p>
+<div class="details admonition quote open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-quote-right fa-fw"></i>引用<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><strong>还有搜集来的一个信息</strong> 记录一下.
+<a href="https://jdhao.github.io/2020/10/31/busuanzi_pv_count_error/" target="_blank" rel="noopener noreffer">文章来源</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript">
+<span class="nx">我目前使用的</span> <span class="nx">Hugo</span><span class="o">-</span><span class="nx">even</span> <span class="nx">这个主题</span><span class="err">，</span><span class="nx">更改很简单</span><span class="err">，</span><span class="nx">进入</span> <span class="nx">even</span> <span class="nx">主题的根目录</span><span class="err">，</span> <span class="nx">找到</span> <span class="nx">layouts</span><span class="o">/</span><span class="nx">partials</span><span class="o">/</span><span class="nx">head</span><span class="p">.</span><span class="nx">html</span> <span class="nx">文件中关于不蒜子的部分</span><span class="err">，</span><span class="nx">把下面的代码</span>
+
+<span class="p">{{</span><span class="o">-</span> <span class="k">if</span> <span class="p">.</span><span class="nx">Site</span><span class="p">.</span><span class="nx">Params</span><span class="p">.</span><span class="nx">busuanzi</span><span class="p">.</span><span class="nx">enable</span> <span class="o">-</span><span class="p">}}</span>
+  <span class="o">&lt;</span><span class="nx">script</span> <span class="kr">async</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<span class="p">{{</span><span class="o">-</span> <span class="nx">end</span> <span class="o">-</span><span class="p">}}</span>
+<span class="nx">改成</span>
+
+<span class="p">{{</span><span class="o">-</span> <span class="k">if</span> <span class="p">.</span><span class="nx">Site</span><span class="p">.</span><span class="nx">Params</span><span class="p">.</span><span class="nx">busuanzi</span><span class="p">.</span><span class="nx">enable</span> <span class="o">-</span><span class="p">}}</span>
+  <span class="o">&lt;</span><span class="nx">script</span> <span class="kr">async</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+  <span class="o">&lt;</span><span class="nx">meta</span> <span class="nx">name</span><span class="o">=</span><span class="s2">&#34;referrer&#34;</span> <span class="nx">content</span><span class="o">=</span><span class="s2">&#34;no-referrer-when-downgrade&#34;</span><span class="o">&gt;</span>
+<span class="p">{{</span><span class="o">-</span> <span class="nx">end</span> <span class="o">-</span><span class="p">}}</span>
+</code></pre></div></div>
+        </div>
+    </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -210,13 +243,17 @@
             </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container">
-            <span id="busuanzi_container_site_pv">
-                本站访问量：<span id="busuanzi_value_site_pv"></span>次
-            </span>
-            &nbsp;
-            <span id="busuanzi_container_site_uv">
-                您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
-            </span><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+               <div class="footer-line">
+
+                  <span id="busuanzi_container_site_pv">
+                    本站访问量：<span id="busuanzi_value_site_pv"></span>次
+                    </span>
+                &nbsp;
+                <span id="busuanzi_container_site_uv">
+                    您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
+                </span>
+                </div>
+                <div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
                 </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
