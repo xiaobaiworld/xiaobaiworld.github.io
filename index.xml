@@ -3,9 +3,16 @@
         <title>小白的世界</title>
         <link>https://www.xiaobaiworld.com/</link>
         <description>小白的世界,hugo,个人感悟,软件改进世界</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 Feb 2021 11:36:21 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 03 Feb 2021 18:56:08 &#43;0000</lastBuildDate>
             <atom:link href="https://www.xiaobaiworld.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[每日学习]hugo建站 Google Analytics 中的一点问题 </title>
+    <link>https://www.xiaobaiworld.com/posts/arc2021020301/</link>
+    <pubDate>Wed, 03 Feb 2021 18:56:08 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://www.xiaobaiworld.com/posts/arc2021020301/</guid>
+    <description><![CDATA[<p>探索 Hugo - 每日进步一点点</p>]]></description>
+</item><item>
     <title>[每日学习]hugo建站 google站点统计与不蒜子</title>
     <link>https://www.xiaobaiworld.com/posts/arc2021020201/</link>
     <pubDate>Tue, 02 Feb 2021 11:36:21 &#43;0000</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://www.xiaobaiworld.com/posts/theme-documentation-content/</guid>
     <description><![CDATA[<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
-</item><item>
-    <title>主题文档 - 内置 Shortcodes</title>
-    <link>https://www.xiaobaiworld.com/posts/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.xiaobaiworld.com/posts/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> 提供了多个内置的 Shortcodes, 以方便作者保持 Markdown 内容的整洁.</p>]]></description>
 </item></channel>
 </rss>
